@@ -137,6 +137,7 @@ p, em, span, a {
     padding: 20;
     max-width: 300px;
     text-align: center;
+    font-weight: normal;
 }
 
 .hero_span {
