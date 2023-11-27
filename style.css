@@ -60,7 +60,7 @@
 }
 
 .hero_section {
-    height: 100svh;
+    min-height: 100svh;
     width: 100vw;
     background: rgb(68,138,184);
     background: linear-gradient(
@@ -90,7 +90,7 @@ p, em, span, a {
     align-items: center;
     flex-direction: column;
     gap: 30;
-    min-height: 300px;
+    min-height: 400px;
 }
 
 .hero_image_wrapper {
@@ -116,7 +116,8 @@ p, em, span, a {
     height: 100%;
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    padding-top: 20px;
+    justify-content: flex-start;
     align-items: center;
     gap: 20px
 }
@@ -206,12 +207,12 @@ p, em, span, a {
 }
 
 .more_info {
-    height: 100svh;
+    min-height: 100svh;
     width: 100vw;
     background: rgb(179,104,197);
     background: linear-gradient(90deg, rgba(179,104,197,1) 0%, rgba(173,104,195,1) 22%, rgba(181,132,170,1) 48%, rgba(50,179,204,1) 77%, rgba(29,174,193,1) 100%);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-self: center;
     flex-direction: column;
 }
