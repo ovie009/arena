@@ -116,7 +116,7 @@ p, em, span, a {
     height: 100%;
     display: flex;
     flex-flow: column;
-    padding-top: 20px;
+    padding-top: 30px;
     justify-content: flex-start;
     align-items: center;
     gap: 20px
@@ -134,9 +134,18 @@ p, em, span, a {
     font-size: 35px;
     font-family: 'SuperDream';
     color: var(--steel-blue);
+    color: var(--polo-blue);
     padding: 20;
     max-width: 300px;
     text-align: center;
+}
+
+.hero_span {
+    font-weight: normal;
+    font-size: 40px;
+    color: var(--amethyst);
+    color: var(--polo-blue);
+    color: var(--steel-blue);
 }
 
 .hero_paragraph{
