@@ -130,6 +130,12 @@ p, em, span, a {
     /* animation: pulsate 3s infinite ease-in-out; */
 }
 
+.hero_list a {
+    text-shadow: rgb(20, 20, 20) 0.1em 0.1em 0.2em;
+    /* color: #fdd638; */
+    font-size: 18px;
+}
+
 .hero_heading{
     font-size: 35px;
     font-family: 'SuperDream';
