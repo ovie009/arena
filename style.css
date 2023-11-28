@@ -131,9 +131,9 @@ p, em, span, a {
 }
 
 .hero_list a {
-    text-shadow: rgb(20, 20, 20) 0.1em 0.1em 0.2em;
-    /* color: #fdd638; */
+    /* text-shadow: rgb(20, 20, 20) 0.1em 0.1em 0.2em; */
     font-size: 18px;
+    color: black;
 }
 
 .hero_heading{
