@@ -314,6 +314,10 @@ p, em, span, a {
         text-align: center;
         margin-bottom: 20px;
     }
+
+    .hero_span {
+        font-size: 55px;
+    }
     
     .cta_wrapper div > p {
         font-size: 16px;
